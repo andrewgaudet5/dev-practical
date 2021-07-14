@@ -80,9 +80,13 @@ const documents = [
         doc_type: 'Article',
     },
 ];
-// 4. if the above "documents" array is represented as rows in a SQL Database: Write a query to retrieve the sum of citations by document type.
-//5 Assuming the following basic  table structure:
-/* 
+/*4. if the above "documents" array is represented as rows in a SQL Database: 
+Write a query to retrieve the sum of citations by document type.
+*/
+
+
+
+/*5 Assuming the following basic  table structure:
 Documents (DocID, DocDate)
 Keywords (KeyWordID, KeyWord)
 DocumentKeywords (DocID,KeywordID)
@@ -91,4 +95,7 @@ Part 1: Documents with a DocDate after 4/1/1995
 Part 2: Documents that contain the keyword "Blue"
 Part 3: Documents that contain the both the keywords "Blue" and "Yellow"
 */
+
+
+
 // 6. Design a system like Twitter. Looking for Database design
